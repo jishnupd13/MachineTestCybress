@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="item"
+            type="com.app.machinetest.models.response.Succes" />
+
+        <variable
+            name="listener"
+            type="com.app.machinetest.listeners.OnItemClickListener" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="@{()->listener.onItemClick(`itemClick`,item)}"
+        >
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="14dp"
+            android:onClick="@{()->listener.onItemClick(`itemClick`,item)}"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="14dp"
+            tools:text="Sajna"
+            android:textSize="17sp"
+            android:fontFamily="@font/open_sans_bold"
+            android:textColor="@color/black"
+            android:text="@{item.name}"
+            />
+
+        <TextView
+            android:id="@+id/text_email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_name"
+            android:layout_marginTop="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="14dp"
+            tools:text="Sajna@gmail.com"
+            android:onClick="@{()->listener.onItemClick(`itemClick`,item)}"
+            android:textSize="14sp"
+            android:fontFamily="@font/open_sans_bold"
+            android:text="@{item.name}"
+            />
+
+
+        <View
+            android:id="@+id/view_line_bottom"
+            android:layout_width="0dp"
+            android:layout_height="0.5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_email"
+            android:layout_marginTop="13.5dp"
+            android:onClick="@{()->listener.onItemClick(`itemClick`,item)}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@color/colorGrey"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

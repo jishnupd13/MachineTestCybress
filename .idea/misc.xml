@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MachineTestCypress/app/src/main/res/layout/activity_parent.xml" value="0.11730072463768115" />
+        <entry key="..\:/MachineTestCypress/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/MachineTestCypress/app/src/main/res/layout/fragment_maps.xml" value="0.11096014492753623" />
+        <entry key="..\:/MachineTestCypress/app/src/main/res/layout/fragment_profile.xml" value="0.10461956521739131" />
+        <entry key="..\:/MachineTestCypress/app/src/main/res/layout/fragment_splash_screen.xml" value="0.11096014492753623" />
+        <entry key="..\:/MachineTestCypress/app/src/main/res/layout/fragment_users_fragment.xml" value="0.10461956521739131" />
+        <entry key="..\:/MachineTestCypress/app/src/main/res/layout/item_users.xml" value="0.22" />
+        <entry key="..\:/MachineTestCypress/app/src/main/res/layout/itemusers.xml" value="0.10461956521739131" />
         <entry key="..\:/Users/JISHNU/AndroidStudioProjects/Mvvm-architecture-kotlin/app/src/main/res/layout/fragment_first.xml" value="0.1" />
       </map>
     </option>

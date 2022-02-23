@@ -3,4 +3,11 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="button">Button</string>
+    <string name="machine_test">Machine Test</string>
+    <string name="home">Home</string>
+    <string name="create_an_page_and_integrate_the_google_map_and_plot_the_map_for_the_points_in_the_api">Create an page and integrate the google map and plot the map for the points in the API</string>
+    <string name="back_button">back button</string>
+    <string name="google_map">Google Map</string>
+    <string name="users">Users</string>
+    <string name="profile_details">Profile Details</string>
 </resources>
